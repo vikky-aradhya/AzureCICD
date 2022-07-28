@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="9965" started-at="2022-07-28T13:39:51Z" finished-at="2022-07-28T13:40:01Z">
+    <groups>
+    </groups>
+    <test name="First TestNG Suite test" duration-ms="9965" started-at="2022-07-28T13:39:51Z" finished-at="2022-07-28T13:40:01Z">
+      <class name="testCase.SampleTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCase.SampleTest@396a51ab]" name="openBrowser" is-config="true" duration-ms="7044" started-at="2022-07-28T13:39:51Z" finished-at="2022-07-28T13:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getTitle()[pri:1, instance:testCase.SampleTest@396a51ab]" name="getTitle" duration-ms="11" started-at="2022-07-28T13:39:58Z" finished-at="2022-07-28T13:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:testCase.SampleTest@396a51ab]" name="login" duration-ms="2167" started-at="2022-07-28T13:39:58Z" finished-at="2022-07-28T13:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCase.SampleTest@396a51ab]" name="closeBrowser" is-config="true" duration-ms="705" started-at="2022-07-28T13:40:00Z" finished-at="2022-07-28T13:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCase.SampleTest -->
+    </test> <!-- First TestNG Suite test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
